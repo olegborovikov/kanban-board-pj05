@@ -1,0 +1,32 @@
+.footer {
+  background-color: #0d47a1;
+  color: white;
+  padding: 11px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.rowLeft {
+  display: flex;
+  gap: 36px;
+}
+
+.rowRight {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    display: none; /* скрыть футер целиком */
+  }
+}

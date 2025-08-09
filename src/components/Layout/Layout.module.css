@@ -1,0 +1,17 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex: 1 1 auto;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #0079bf;
+
+  position: relative;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #0d47a1;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
