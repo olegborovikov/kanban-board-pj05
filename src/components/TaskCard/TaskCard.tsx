@@ -5,8 +5,8 @@ type Props = { task: Task; className?: string }
 const TaskCard: React.FC<Props> = ({ task, className }) => {
   const openInNewWindow = () => {
     const base = process.env.PUBLIC_URL || ''
-    const url = `${base}/tasks/${task.id}`
-    const w = window.open(url, '_blank', 'noopener,noreferrer')
+    const url = `${base}/#/tasks/${task.id}` // добавили #/
+    window.open(url, '_blank', 'noopener,noreferrer')
   }
 
   return (
